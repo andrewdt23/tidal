@@ -15,18 +15,29 @@
     background-repeat: no-repeat, no-repeat, no-repeat;
     background-attachment: scroll, scroll, scroll;
     z-index: -1;
-    @media screen and (max-width: 950px) {
+    @media (max-width: 950px) {
         background-size: auto, auto, auto, 175%;
     }
 }
 
 .tidal-title {
     text-align: center;
-    text-shadow: 15px 15px #000000;
+    text-shadow: 15px 15px black;
     font-family: Lato;
     letter-spacing: 30px;
     color: white;
     font-size: 200px;
     margin-top: 5%;
     z-index: 1;
+    @media (max-width: 950px) {
+        font-size: 150px;
+    }
+    @media (max-width: 650px) {
+        font-size: 100px;
+        text-shadow: 10px 10px black;
+    }
+    @media (max-width: 480px) {
+        font-size: 60px;
+        text-shadow: 7px 7px black;
+    }
 }
