@@ -29,19 +29,128 @@
     font-size: 200px;
     margin-top: 50px;
     z-index: 1;
+    @include transition(0.5s ease-in-out);
     @media (max-width: 950px) {
         font-size: 150px;
         margin-top: 70px;
+        @include transition(0.5s ease-in-out);
     }
     @media (max-width: 650px) {
         font-size: 100px;
         text-shadow: 10px 10px black;
         margin-top: 100px;
+        @include transition(0.5s ease-in-out);
     }
     @media (max-width: 480px) {
         font-size: 60px;
         text-shadow: 7px 7px black;
         margin-top: 150px;
         letter-spacing: 15px;
+        @include transition(0.5s ease-in-out);
+    }
+}
+
+.buttons {
+    width: 60%;
+    height: 76px;
+    margin: 50px auto;
+    @include transition(0.5s ease-in-out);
+    @media (max-width: 1250px) {
+        width: 70%;
+        @include transition(0.5s ease-in-out);
+    }
+    @media (max-width: 1070px) {
+        width: 80%;
+        @include transition(0.5s ease-in-out);
+    }
+    @media (max-width: 950px) {
+        width: 90%;
+        @include transition(0.5s ease-in-out);
+    }
+    @media (max-width: 850px) {
+        height: 152px;
+        @include transition(0.5s ease-in-out);
+    }
+}
+
+.county {
+    float: left;
+    padding: 20px 50px;
+    background-color: white;
+    font-family: Lato;
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    border-radius: 10px;
+    @include transition(0.2s ease-in-out);
+    @media (max-width: 850px) {
+        float: none;
+        display: block;
+        margin: 0 auto 20px;
+        @include transition(0.5s ease-in-out);
+    }
+    @media (max-width: 650px) {
+        font-size: 20px;
+        @include transition(0.5s ease-in-out);
+    }
+    @media (max-width: 480px) {
+        font-size: 18px;
+        @include transition(0.5s ease-in-out);
+    }
+
+    &:hover {
+        padding: 25px 55px;
+        font-size: 28px;
+        @media (max-width: 650px) {
+            font-size: 24px;
+            @include transition(0.5s ease-in-out);
+        }
+        @media (max-width: 480px) {
+            font-size: 22px;
+            padding: 25px 35px;
+            @include transition(0.5s ease-in-out);
+        }
+        @include transition(0.2s ease-in-out);
+    }
+}
+
+.location {
+    float: right;
+    padding: 20px 43px;
+    background-color: white;
+    font-family: Lato;
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    border-radius: 10px;
+    @include transition(0.2s ease-in-out);
+    @media (max-width: 850px) {
+        float: none;
+        display: block;
+        margin: 20px auto 0;
+        @include transition(0.5s ease-in-out);
+    }
+    @media (max-width: 650px) {
+        font-size: 20px;
+        @include transition(0.5s ease-in-out);
+    }
+    @media (max-width: 480px) {
+        font-size: 18px;
+        @include transition(0.5s ease-in-out);
+    }
+
+    &:hover {
+        padding: 25px 55px;
+        font-size: 28px;
+        @include transition(0.2s ease-in-out);
+        @media (max-width: 650px) {
+            font-size: 24px;
+            @include transition(0.5s ease-in-out);
+        }
+        @media (max-width: 480px) {
+            font-size: 22px;
+            padding: 25px 30px;
+            @include transition(0.5s ease-in-out);
+        }
     }
 }
