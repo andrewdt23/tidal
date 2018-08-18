@@ -1,0 +1,16 @@
+@import "_config.scss";
+@import url('https://fonts.googleapis.com/css?family=Lato.css');
+
+body,
+html {
+    margin: 0;
+    padding: 0;
+
+    .modal-open {
+        overflow-y: scroll !important;
+    }
+}
+
+.App {
+    display: block;
+}
