@@ -27,17 +27,20 @@
     letter-spacing: 30px;
     color: white;
     font-size: 200px;
-    margin-top: 5%;
+    margin-top: 50px;
     z-index: 1;
     @media (max-width: 950px) {
         font-size: 150px;
+        margin-top: 70px;
     }
     @media (max-width: 650px) {
         font-size: 100px;
         text-shadow: 10px 10px black;
+        margin-top: 100px;
     }
     @media (max-width: 480px) {
         font-size: 60px;
         text-shadow: 7px 7px black;
+        margin-top: 150px;
     }
 }
