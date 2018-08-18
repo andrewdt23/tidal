@@ -151,7 +151,7 @@
         }
         @media (max-width: 480px) {
             font-size: 22px;
-            padding: 25px 30px;
+            padding: 25px;
             @include transition(0.5s ease-in-out);
         }
     }
