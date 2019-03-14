@@ -1,6 +1,11 @@
 @import "../_config.scss";
 @import url('https://fonts.googleapis.com/css?family=Lato.css');
 
+.info-modal {
+    position: absolute;
+    top: 30%;
+}
+
 .background-image {
     position: absolute;
     transform: none;
