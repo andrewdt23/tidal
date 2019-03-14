@@ -18,7 +18,7 @@ class Homepage extends Component {
     componentDidMount() {
         const request = new XMLHttpRequest();
 
-        request.open('GET', '//api.spitcast.com/api/county/tide/orange-county/', true);
+        request.open('GET', 'https://crossorigin.me/http://api.spitcast.com/api/county/tide/orange-county/', true);
         request.onload = () => {
             // Begin accessing JSON data here
             const data = JSON.parse(request.response);
