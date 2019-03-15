@@ -1,9 +1,40 @@
 @import "../_config.scss";
 @import url('https://fonts.googleapis.com/css?family=Lato.css');
 
-.info-modal {
+.tide-modal {
     position: absolute;
     top: 30%;
+}
+
+.input-modal {
+    position: absolute;
+    top: 30%;
+
+    .enter-county {
+        text-align: center;
+        width: 50%;
+        margin: 0 auto;
+    }
+
+    .county-input-wrapper {
+        width: 50%;
+        margin: 4% auto;
+    }
+
+    .county-input {
+        width: 100%;
+        border-color: lightgray;
+    }
+
+    .county-submit-wrapper {
+        text-align: center;
+        width: 50%;
+        margin: 0 auto;
+    }
+
+    .county-submit {
+        font-size: 20px;
+    }
 }
 
 .background-image {
